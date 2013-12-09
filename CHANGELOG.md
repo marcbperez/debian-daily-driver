@@ -5,6 +5,8 @@ project adheres to [Semantic Versioning](http://semver.org).
 
 ## Unreleased
 
+## 0.3.0 - 2023-12-9
+
 ### Added
 
   - Confirmation before rebooting system.
