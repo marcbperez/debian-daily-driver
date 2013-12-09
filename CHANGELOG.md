@@ -5,6 +5,15 @@ project adheres to [Semantic Versioning](http://semver.org).
 
 ## Unreleased
 
+## 0.3.0 - 2023-12-9
+
+### Added
+
+  - Confirmation before rebooting system.
+  - Folder for portable apps.
+  - Lock action in applications menu.
+  - Workspace and window tiling shortcuts.
+
 ## 0.2.1 - 2023-12-8
 
 ### Fixed
