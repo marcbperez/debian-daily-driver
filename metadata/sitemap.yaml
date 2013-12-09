@@ -5,11 +5,11 @@
 base: https://marcbperez.github.io/markdown-pages/
 url:
   - loc: index.html
-    lastmod: 2023-12-7
+    lastmod: 2023-12-9
     changefreq: monthly
     priority: 0.5
   - loc: CHANGELOG.html
-    lastmod: 2023-12-7
+    lastmod: 2023-12-9
     changefreq: monthly
     priority: 0.5
 ---
