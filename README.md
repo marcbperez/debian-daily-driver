@@ -1,7 +1,7 @@
 # debian-daily-driver
 
-A Debian 12 and XFCE4 configuration for everyday life. With a dark theme, a
-custom panel and extra keyboard shortcuts, plus a set of handy programs.
+A Debian 12, XFCE4 and LightDM setup for everyday life. In a dark theme, with a 
+custom panel, extra keyboard shortcuts, and handy programs.
 
 [![](/assets/programs.png "Programs (full width centered)")](/assets/programs.png)
 
@@ -17,9 +17,9 @@ cd debian-daily-driver
 Or download the release tarball.
 
 ```bash
-curl -L https://github.com/marcbperez/debian-daily-driver/archive/refs/tags/0.1.0.tar.gz \
+curl -L https://github.com/marcbperez/debian-daily-driver/archive/refs/tags/0.2.0.tar.gz \
   | tar zxvp -C .
-cd debian-daily-driver-0.1.0
+cd debian-daily-driver-0.2.0
 ```
 
 In a freshly installed system run `bash firstboot.sh`. It will give `sudo`
