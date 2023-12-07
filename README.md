@@ -1,7 +1,7 @@
 # debian-daily-driver
 
-A Debian 12 and XFCE4 configuration for everyday life. With a dark theme, a
-custom panel and extra keyboard shortcuts, plus a set of handy programs.
+A Debian 12, XFCE4 and LightDM setup for everyday life. In a dark theme, with a 
+custom panel, extra keyboard shortcuts, and handy programs.
 
 [![](/assets/programs.png "Programs (full width centered)")](/assets/programs.png)
 
