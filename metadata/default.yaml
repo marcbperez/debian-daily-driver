@@ -1,0 +1,24 @@
+---
+# Default page metadata, configures the template for all pages.
+# `title` is required. `style`, `module` and `script` use any URL that responds
+# with a CSS, JavaScript module or JavaScript script, respectively.
+
+base: https://marcbperez.github.io/debian-daily-driver/
+title: debian-daily-driver
+description: A Debian 12, XFCE4 and LightDM setup for everyday life
+author:
+  - Marc B. Perez
+keywords:
+  - debian-daily-driver
+  - Debian 12
+  - XFCE4
+  - LightDM
+toc: true
+nav:
+  - label: Readme
+    href: index.html
+  - label: Change Log
+    href: CHANGELOG.html
+  - label: Sources
+    href: https://github.com/marcbperez/debian-daily-driver
+---
