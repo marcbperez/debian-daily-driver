@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <base href="https://marcbperez.github.io/debian-daily-driver/index.html">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+  <title>debian-daily-driver</title>
+  <meta name="author" content="Marc B. Perez">
+  <meta name="description" content="A Debian 12, XFCE4 and LightDM setup
+for everyday life">
+  <meta name="keywords" content="debian-daily-driver,Debian
+12,XFCE4,LightDM">
+  <link rel="shortcut icon" href="theme/favicon.ico">
+  <link rel="stylesheet" href="theme/style.css">
+  <link rel="stylesheet" href="theme/ThemeForm.css">
+  <link rel="stylesheet" href="theme/CodeHighlighter.css">
+  <script type="module" src="theme/ThemeForm.js"></script>
+  <script type="module" src="theme/CodeHighlighter.js"></script>
+  <script type="module" src="https://esm.sh/prismjs/components/prism-bash.min.js"></script>
+  <script type="module" src="https://esm.sh/prismjs/components/prism-python.min.js"></script>
+  <script type="module" src="https://esm.sh/prismjs/components/prism-markdown.min.js"></script>
+  <script type="module" src="https://esm.sh/prismjs/components/prism-yaml.min.js"></script>
+  <script type="module" src="https://esm.sh/prismjs/plugins/toolbar/prism-toolbar.min.js"></script>
+  <script type="module" src="https://esm.sh/prismjs/plugins/copy-to-clipboard/prism-copy-to-clipboard.min.js"></script>
+</head>
+
+<body class="detect light medium serif">
+  <header>
+    <div>
+      <p class="themeform"></p>
+      <h1><a href="index.html">debian-daily-driver</a><br><small>A
+Debian 12, XFCE4 and LightDM setup for everyday life</small></h1>
+      <nav><p><span><a href="index.html">Readme</a> /</span> <span><a href="CHANGELOG.html">Change
+Log</a> /</span> <span><a href="https://github.com/marcbperez/debian-daily-driver">Sources</a></p></nav>
+      <hr>
+    </div>
+  </header>
+
+  <main>
+    <section>
+      <details>
+        <summary>Page contents</summary>
+        <nav role="doc-toc"><ul>
+<li><a href="#debian-daily-driver"
+id="toc-debian-daily-driver">debian-daily-driver</a>
+<ul>
+<li><a href="#installation" id="toc-installation">Installation</a></li>
+<li><a href="#usage" id="toc-usage">Usage</a></li>
+<li><a href="#troubleshooting"
+id="toc-troubleshooting">Troubleshooting</a></li>
+<li><a href="#contributing" id="toc-contributing">Contributing</a></li>
+<li><a href="#credits" id="toc-credits">Credits</a></li>
+<li><a href="#license" id="toc-license">License</a></li>
+</ul></li>
+</ul></nav>
+      </details>
+    </section>
+    <section>
+<h1 id="debian-daily-driver">debian-daily-driver</h1>
+<p>A Debian 12, XFCE4 and LightDM setup for everyday life. In a dark
+theme, with a custom panel, extra keyboard shortcuts and handy
+programs.</p>
+<p><a href="assets/programs.jpg"><img src="assets/programs.jpg"
+title="Programs (full width centered)" /></a></p>
+<h2 id="installation">Installation</h2>
+<p>Clone the sources in Debian 12.</p>
+<pre class="bash"><code>git clone https://github.com/marcbperez/debian-daily-driver
+cd debian-daily-driver</code></pre>
+<p>Or download the release tarball.</p>
+<pre class="bash"><code>curl -L https://github.com/marcbperez/debian-daily-driver/archive/refs/tags/0.2.0.tar.gz \
+  | tar zxvp -C .
+cd debian-daily-driver-0.2.0</code></pre>
+<p>In a freshly installed system run <code>bash firstboot.sh</code>. It
+will give <code>sudo</code> rights to the current user, and update and
+reboot the system. <code>install.sh</code> will configure everything
+else.</p>
+<pre class="bash"><code>bash install.sh</code></pre>
+<h2 id="usage">Usage</h2>
+<p>Log in to the desktop if you have not done it already.</p>
+<p><a href="assets/login.jpg"><img src="assets/login.jpg"
+title="Login (full width centered)" /></a></p>
+<p>Open the menu with <code>Super + Space</code>, anything you type will
+filter the application list. There are buttons to access the Settings
+Manager and to log out.</p>
+<p><a href="assets/menu.jpg"><img src="assets/menu.jpg"
+title="Menu (full width centered)" /></a></p>
+<p>The Application Finder is assigned to <code>Alt + F3</code>, it will
+also filter the application list as you type.</p>
+<p><a href="assets/appfinder.jpg"><img src="assets/appfinder.jpg"
+title="App Finder (full width centered)" /></a></p>
+<p>And there is a collapsed version assigned to
+<code>Alt + F2</code>.</p>
+<p><a href="assets/appfinder-collapsed.jpg"><img
+src="assets/appfinder-collapsed.jpg"
+title="Collapsed App Finder(full width centered)" /></a></p>
+<p>Other useful shortcuts are:</p>
+<ul>
+<li><code>Super + L</code> locks the session.</li>
+<li><code>Super + T</code> opens a terminal.</li>
+<li><code>Super + F</code> opens the file explorer.</li>
+<li><code>Super + W</code> opens the web browser.</li>
+</ul>
+<p>Most of the settings, including these shortcuts, can be configured
+through the applications in the “Settings” and the “System” categories
+of the menu.</p>
+<h2 id="troubleshooting">Troubleshooting</h2>
+<p>The <a
+href="https://github.com/marcbperez/debian-daily-driver/issues">issue
+tracker</a> intends to manage and compile bugs, enhancements, proposals
+and tasks. Reading through its material or reporting to its contributors
+via the platform is strongly recommended.</p>
+<h2 id="contributing">Contributing</h2>
+<p>This project adheres to <a href="http://semver.org">Semantic
+Versioning</a> and to certain syntax conventions defined in <a
+href=".editorconfig">.editorconfig</a>. To get a list of changes refer
+to the <a href="CHANGELOG.html">CHANGELOG</a>. Only branches prefixed by
+<em>feature-</em>, <em>hotfix-</em>, or <em>release-</em> will be
+considered:</p>
+<ul>
+<li>Fork the project.</li>
+<li>Create your new branch:
+<code>git checkout -b feature-my-feature develop</code></li>
+<li>Commit your changes:
+<code>git commit -am 'Added my new feature.'</code></li>
+<li>Push the branch:
+<code>git push origin feature-my-feature</code></li>
+<li>Submit a pull request.</li>
+</ul>
+<h2 id="credits">Credits</h2>
+<p>Created by <a href="https://marcbperez.github.io">Marc B. Perez</a>
+and maintained by its <a href="https://marcbperez.github.io">author</a>
+and contributors.</p>
+<h2 id="license">License</h2>
+<p>This project is licensed under the <a href="LICENSE">Apache License
+Version 2.0</a>.</p>
+    </section>
+  </main>
+
+  <footer>
+    <div>
+      <hr>
+      <p><b><a href="index.html">debian-daily-driver</a></b> - A Debian
+12, XFCE4 and LightDM setup for everyday life</p>
+      <nav><p><span><a href="index.html">Readme</a> /</span> <span><a href="CHANGELOG.html">Change
+Log</a> /</span> <span><a href="https://github.com/marcbperez/debian-daily-driver">Sources</a></p></nav>
+      <p class="themeform"></p>
+      <div id="codehighlighter"></div>
+    </div>
+  </footer>
+
+</body>
+
+</html>

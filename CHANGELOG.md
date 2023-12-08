@@ -5,6 +5,17 @@ project adheres to [Semantic Versioning](http://semver.org).
 
 ## Unreleased
 
+## 0.2.0 - 2023-12-8
+
+### Added
+
+  - LightDM configuration.
+  - XFCE4 configuration.
+  - GSettings configuration.
+  - First boot and installation scripts.
+  - Documentation website for this project.
+  - Deployment workflow.
+
 ## 0.1.0 - 2023-12-7
 
 ### Added
