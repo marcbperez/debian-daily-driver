@@ -17,9 +17,9 @@ cd debian-daily-driver
 Or download the release tarball.
 
 ```bash
-curl -L https://github.com/marcbperez/debian-daily-driver/archive/refs/tags/0.1.0.tar.gz \
+curl -L https://github.com/marcbperez/debian-daily-driver/archive/refs/tags/0.2.0.tar.gz \
   | tar zxvp -C .
-cd debian-daily-driver-0.1.0
+cd debian-daily-driver-0.2.0
 ```
 
 In a freshly installed system run `bash firstboot.sh`. It will give `sudo`

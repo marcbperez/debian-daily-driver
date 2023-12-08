@@ -5,6 +5,8 @@ project adheres to [Semantic Versioning](http://semver.org).
 
 ## Unreleased
 
+## 0.2.0 - 2023-12-8
+
 ### Added
 
   - LightDM configuration.
