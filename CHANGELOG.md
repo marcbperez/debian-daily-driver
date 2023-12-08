@@ -5,6 +5,12 @@ project adheres to [Semantic Versioning](http://semver.org).
 
 ## Unreleased
 
+## 0.2.1 - 2023-12-8
+
+### Fixed
+
+  - System reboot after installation.
+
 ## 0.2.0 - 2023-12-8
 
 ### Added
